@@ -1,0 +1,19 @@
+<aside class="page-aside">
+        <section class="category">
+          <strong style="color:#2ac1bc;font-size:18px;">categories</strong>
+          <ul>
+                {% for category in site.categories %}
+                <li><a class="bold" href="/category/{{ category[0] }}">{{ category[0] }} ({{ category[1].size }}) </a></li>
+                {% endfor %}
+          </ul>
+        </section>
+        
+        <section class="recent-posts">
+          <strong style="color:#2ac1bc;font-size:18px;">Recent Posts</strong>
+          <ul>
+            {% for post in site.posts limit:5 %}  
+              <li><a href="{{ BASE_PATH }}{{ post.url }}">{{ post.title }}</a></li>  
+            {% endfor %}  
+          </ul>
+        </section>
+      </aside>

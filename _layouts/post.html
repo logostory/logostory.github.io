@@ -1,14 +1,40 @@
 ---
-layout: default
+layout: post_layout
 ---
-<h1>{{ page.title }}</h1>
+<article class="post" itemscope="" itemtype="http://schema.org/BlogPosting">
+  <meta itemscope="" itemprop="mainEntityOfPage" itemtype="https://schema.org/WebPage" itemid="http://woowabros.github.io">
 
-<p>
-  {{ page.date | date_to_string }}
-  {% assign author = site.authors | where: 'short_name', page.author | first %}
-  {% if author %}
-    - <a href="{{ author.url }}">{{ author.name }}</a>
-  {% endif %}
-</p>
+    <div itemprop="image" itemscope="" itemtype="https://schema.org/ImageObject">
+      <meta itemprop="url" content="">
+      <meta itemprop="width" content="800">
+      <meta itemprop="height" content="800">
+    </div>
 
-{{ content }}
+    <div itemprop="publisher" itemscope="" itemtype="https://schema.org/Organization">
+      <meta itemprop="name" content="우아한형제들">
+      <div itemprop="logo" itemscope="" itemtype="https://schema.org/ImageObject">
+        <meta itemprop="url" content="http://woowabros.github.io/logo_220x57.png">
+        <meta itemprop="width" content="220">
+        <meta itemprop="height" content="57">
+      </div>
+    </div>
+
+  <header class="post-header">
+
+      
+    <h1 class="post-title" itemprop="name headline">{{ page.title }}</h1>
+    
+    <p class="post-meta">
+        <time datetime="{{ page.date}}" itemprop="datePublished dateModified">{{ page.date | date_to_string }}</time>
+         • 
+         <span itemprop="author" itemscope="" itemtype="http://schema.org/Person">
+          <span itemprop="name"> {{ page.author }}</span>
+        </span>
+    </p>
+  </header>
+
+  <div class="post-content" itemprop="articleBody">
+      {{ content }}
+  </div>
+</article>
+

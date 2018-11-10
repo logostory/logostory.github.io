@@ -21,3 +21,5 @@ defaults:
 plugins:
   - jekyll-seo-tag
   - jekyll-feed
+category_dir: category/
+tag_dir: tag/

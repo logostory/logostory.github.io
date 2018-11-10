@@ -721,3 +721,8 @@ pre > code {
 
 .highlight .lineno {
   color: #ffe5a0; }
+
+.site-title .site-logo {
+  background-size: 100%;
+  width: 120px;
+  margin-right: 30px; }
