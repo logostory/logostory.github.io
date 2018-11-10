@@ -17,3 +17,6 @@ defaults:
       path: ""
     values:
       layout: "default"
+gems:
+    - jekyll-seo-tag
+    - jekyll-sitemap
