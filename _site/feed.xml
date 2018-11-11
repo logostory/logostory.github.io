@@ -1,4 +1,60 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.5">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2018-11-10T22:01:22+09:00</updated><id>http://localhost:4000/</id><entry><title type="html">로고스토리 - 동네 개발자 이야기 시작!</title><link href="http://localhost:4000/operation/2018/10/10/begin-blog.html" rel="alternate" type="text/html" title="로고스토리 - 동네 개발자 이야기 시작!" /><published>2018-10-10T00:00:00+09:00</published><updated>2018-10-10T00:00:00+09:00</updated><id>http://localhost:4000/operation/2018/10/10/begin-blog</id><content type="html" xml:base="http://localhost:4000/operation/2018/10/10/begin-blog.html">&lt;p&gt;안녕하세요 로고스토리 David 입니다. 로고스토리 개발 블로그 &lt;strong&gt;‘로고스토리 - 동네개발자 이야기’&lt;/strong&gt; 이야기 입니다.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.5">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2018-11-11T23:59:14+09:00</updated><id>http://localhost:4000/</id><entry><title type="html">개발플젝 ‘모두의 주문’을 향해 첫발을 내딛다</title><link href="http://localhost:4000/meetup/2018/11/11/2nd-meetup.html" rel="alternate" type="text/html" title="개발플젝 '모두의 주문'을 향해 첫발을 내딛다" /><published>2018-11-11T00:00:00+09:00</published><updated>2018-11-11T00:00:00+09:00</updated><id>http://localhost:4000/meetup/2018/11/11/2nd-meetup</id><content type="html" xml:base="http://localhost:4000/meetup/2018/11/11/2nd-meetup.html">&lt;p&gt;안녕하세요 로고스토리 David 입니다. 오늘은 logostory두번째 모임을 가진 날이었습니다. 새로운 스터디 장소인 투섬플레이스 수지 동천역점에서 진행이 되었습니다. 오늘 이야기 나온 내용들 입니다.&lt;/p&gt;
 
-&lt;h2 id=&quot;개발자-이야기를-뭘로-공유-해야-좋을까&quot;&gt;개발자 이야기를 뭘로 공유 해야 좋을까?&lt;/h2&gt;
-&lt;p&gt;로고스토리 블로그를 오픈했습니다. 스터디하면서 여러가지 이야기들을 어떻게 공유 할까 고민하다가 기술블로그 형식이 가장 괜찮겠다는 생각이 들어서 만들었습니다.&lt;/p&gt;</content><author><name>David Sun</name></author><category term="operation" /><summary type="html">안녕하세요 로고스토리 David 입니다. 로고스토리 개발 블로그 ‘로고스토리 - 동네개발자 이야기’ 이야기 입니다.</summary></entry></feed>
+&lt;h2 id=&quot;일요일-오전-10시의-수지-동천역은-한가롭다&quot;&gt;일요일 오전 10시의 수지 동천역은 한가롭다&lt;/h2&gt;
+
+&lt;p&gt;스터디 장소인 투섬플레이스 수지 동천역점이 위치한 U타워는 오피스 건물이 주라 주말인 일요일 오전에는 조용했습니다. 아침에 오가는 사람도 뜸하고 다들 먼거리를 잘 오실런지 살짝 걱정도 되기 시작했습니다.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/img/11-11/dongchun2.jpg&quot; alt=&quot;Alt text&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;기우였네요12분이-오신다고-하시고-14분이-오셨네요&quot;&gt;기우였네요..12분이 오신다고 하시고 14분이 오셨네요&lt;/h2&gt;
+
+&lt;p&gt;다들 빠지기도하고 못오기도 할줄 알았는데 다들 이렇게 모였습니다. 신기한건 이중에 2/3가 지난주에 안나오신분들이고 지난주에 나오셨다가 이번주에 못오신 분들은 다음주에 나오겠다고 합니다. 다음주에는 몇분이 되실지 걱정반 기대반이네요. 처음에 하다보면 빠지겠지라고 말씀드렸는데 다들 &lt;strong&gt;&lt;em&gt;‘누구지? 나는 아닌데…‘&lt;/em&gt;&lt;/strong&gt; 하는 마음으로 오시는듯 합니다.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/img/11-11/all-member.jpg&quot; alt=&quot;Alt text&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;우리가-개발할-주제-모두의-주문&quot;&gt;우리가 개발할 주제 ‘모두의 주문’&lt;/h2&gt;
+&lt;p&gt;우리가 투표를 통해 무려 14명이 선택한 &lt;strong&gt;모두의주문&lt;/strong&gt;으로 개발 주제를 선택했습니다. &lt;strong&gt;모두의주문&lt;/strong&gt;은 &lt;code class=&quot;highlighter-rouge&quot;&gt;손님이 자리에서 모바일로 주문하는 서비스&lt;/code&gt; 입니다. 모든 기능을 구현하려면 주객이 전도되어 스터디 방향인 ‘프로젝트를 통한 스터디’가 ‘프로젝트를 위한 스터디’가 될수 있어 간단한 몇가지 기능만들 구현하되 &lt;strong&gt;&lt;em&gt;기능별로 디자인부터 최하단까지 전체 path를 구현하는 것에 중점을 두는 것&lt;/em&gt;&lt;/strong&gt;으로 정했습니다.
+&lt;img src=&quot;/assets/img/11-11/modoo-order.png&quot; alt=&quot;Alt text&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;두개의-파트frontend-backend로-나눠서-진행하기로-했습니다&quot;&gt;두개의 파트(Frontend, Backend)로 나눠서 진행하기로 했습니다&lt;/h2&gt;
+&lt;p&gt;인프라(AWS)와 Backend(Springframework)를 주로 스터디하고 기능을 구현할 Backend파트와 디자인(Sketch, Zeplin), Frontend(ReactJS)를 스터디하고 구현할 Frontend파트로 나눴습니다. 각각 파트별로 일꾼을 뽑았고 Backend는 Kevin, Maxx님 Frontend는 김성빈, 포드님이 &lt;strong&gt;지원 및 반강제 추천&lt;/strong&gt;으로 정해졌습니다.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/img/11-11/part-member.png&quot; alt=&quot;Alt text&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;제품에-필요한-기술익히기-1달-제품-만들기-1달&quot;&gt;제품에 필요한 기술익히기 1달, 제품 만들기 1달&lt;/h2&gt;
+&lt;p&gt;우리가 만들 제품은 정해졌고 해당 제품을 만들기 위해서는 우리가 지식도 쌓고 개발 실력도 늘려야 하기 때문에 처음에는 장수가 전쟁을 치르기 위해 훈련을 통해 무기를 체화 시키듯 각각의 개발 툴 및 언어를 익히는데 중점을 두고 그 다음달은 익힌 기술들을 사용해서 실제 제품을 만들어보는 방식으로 스터디를 진행하기로 했습니다.(기간은 상황에 따라서 변경이 될수 있겠네요)&lt;/p&gt;
+
+&lt;h2 id=&quot;파트별-스터디-계획&quot;&gt;파트별 스터디 계획&lt;/h2&gt;
+&lt;p&gt;파트별로 스터디 계획이나 할 일들을 정리했고 관련 내용은 보기 편하도록 &lt;del&gt;(양이 많아 링크로 붙여넣기 빡세서..)&lt;/del&gt; 링크를 통해 ( &lt;a href=&quot;https://logostory.slack.com/files/UDT53GLA0/FE02CBHCY/____________2W____________________2018-11-11_&quot;&gt;Backend&lt;/a&gt;, &lt;a href=&quot;https://logostory.slack.com/files/UDU3D1NCU/FE01CFFS4/___________________2__________________2018-11-11_&quot;&gt;Frontend&lt;/a&gt; )공유 합니다.&lt;/p&gt;
+
+&lt;h2 id=&quot;참고자료&quot;&gt;참고자료&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&quot;https://www.slideshare.net/whiteship/rest-api-development-with-spring?fbclid=IwAR0dznnzXawANQVTgJImDJNWNKyi1jcwoAkd0foUyOya4hLWJHMv0UJP7_I&quot;&gt;백기선님 스피링 기반 REST API 발표 자료&lt;/a&gt;&lt;br /&gt;
+&lt;a href=&quot;https://github.com/keesun/study/tree/master/demospringbootsecurity&quot;&gt;백기선님 스프링 기반 REST API 데모 소스&lt;/a&gt; &lt;br /&gt;
+&lt;a href=&quot;https://github.com/david-learner/java-study/blob/master/%EB%B0%B1%EA%B8%B0%EC%84%A0%EB%8B%98_%EC%8A%A4%ED%94%84%EB%A7%81_%EA%B8%B0%EB%B0%98_REST_API_%EA%B0%9C%EB%B0%9C/readme.md&quot;&gt;백기선님 스프링 기반 REST API 발표 후기&lt;/a&gt;&lt;br /&gt;
+&lt;a href=&quot;https://chrome.google.com/webstore/detail/octotree/bkhaagjahfmjljalopjnoealnfndnagc?utm_source=chrome-ntp-icon&quot;&gt;크롬 익스텐션 깃헙 코드트리 뷰어&lt;/a&gt; &lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://material.io/tools/theme-editor/&quot;&gt;머티리얼 디자인 Theme Editor&lt;/a&gt; &lt;br /&gt;
+&lt;a href=&quot;https://material-ui.com/&quot;&gt;머티리얼 디자인 기반 React Components&lt;/a&gt;&lt;br /&gt;
+&lt;a href=&quot;https://jestjs.io/&quot;&gt;Jest - Delightful JavaScript Testing&lt;/a&gt;&lt;br /&gt;
+&lt;a href=&quot;https://github.com/airbnb/enzyme&quot;&gt;Enzyme - JavaScript Testing utilities for React&lt;/a&gt;&lt;br /&gt;
+&lt;a href=&quot;https://github.com/airbnb/javascript&quot;&gt;Style Guide - Airbnb&lt;/a&gt;&lt;/p&gt;</content><author><name>David Sun</name></author><category term="meetup" /><summary type="html">안녕하세요 로고스토리 David 입니다. 오늘은 logostory두번째 모임을 가진 날이었습니다. 새로운 스터디 장소인 투섬플레이스 수지 동천역점에서 진행이 되었습니다. 오늘 이야기 나온 내용들 입니다.</summary></entry><entry><title type="html">로고스토리 - 동네 개발자 이야기 시작</title><link href="http://localhost:4000/story/2018/11/10/begin-blog.html" rel="alternate" type="text/html" title="로고스토리 - 동네 개발자 이야기 시작" /><published>2018-11-10T00:00:00+09:00</published><updated>2018-11-10T00:00:00+09:00</updated><id>http://localhost:4000/story/2018/11/10/begin-blog</id><content type="html" xml:base="http://localhost:4000/story/2018/11/10/begin-blog.html">&lt;p&gt;안녕하세요 로고스토리 David 입니다. 로고스토리 개발 블로그 &lt;strong&gt;‘로고스토리 - 동네개발자 이야기’&lt;/strong&gt; 입니다. 로고스토리 개발자 블로그 만든 기념으로 로고스토리를 만들게된 계기와 개발자 블로그에 대한 첫 글을 남겨 봅니다.&lt;/p&gt;
+
+&lt;h2 id=&quot;prologue-오늘도-커피숍에는-딱-봐도-나-닮은-개발자가-넘친다&quot;&gt;Prologue. 오늘도 커피숍에는 딱 봐도 나 닮은 개발자가 넘친다&lt;/h2&gt;
+&lt;p&gt;오늘도 스벅을 들어서며 뭐 시킬지 앱을 켜며 사이렌 오더를 클릭한다. 1층을 지나니 벌써 창가에는 노트북을 세운 사람들이 몇몇있다. ‘1층이 이정도면 2층은 꽉차겠네’ 아니나 다를까 2층으로 올라가니 창가자리는 벌써 꽉찼다. 전원을 꽃을 수 있는 자리는 언제나 인기가 좋다. ‘아놔.. 이럴줄 알았으면 집에서 배터리 꽉 채워 오는건데..’ 후회해도 이미 늦었다. 플러그가 있는 자리 확보에 실패하고 대충 자리를 잡고 노트북을 열었다. 이런 저런 개발 준비를 하다 고개를 살짝 들어보면 열심히 노트북을 보며 개발을 하는듯 보이는 사람들이 많다 &lt;strong&gt;‘이렇게 나랑 비슷한 사람들이 많은데 같이 뭐하나 만들어 보면 잼있을텐데..’&lt;/strong&gt; 이 잠깐의 생각은 곧 현실이 된다..&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/img/cafe2.jpeg&quot; alt=&quot;Alt text&quot; /&gt;
+&lt;em&gt;2018.10.10(토) 늘 많더니 하필 사진찍을려니 없네.. - 투섬플레이스 수지 동천점&lt;/em&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;로고스토리-개발자-블러그가-생겼습니다&quot;&gt;로고스토리 개발자 블러그가 생겼습니다&lt;/h2&gt;
+&lt;p&gt;동네 스터디 모임에 개발자 블로그가 왠말이냐 싶지만 몇가지 이유로 개발자 블로그가 꼭 필요하다는 결론을 내렸습니다.&lt;/p&gt;
+
+&lt;h3 id=&quot;1-정리한-문서는-쉽게-접근-할수-있어야한다&quot;&gt;1. 정리한 문서는 쉽게 접근 할수 있어야한다.&lt;/h3&gt;
+&lt;p&gt;로고스토리 스터디와 프로젝트를 진행하다보면 여러가지 개발 중에 경험했던 또는 개발했던 좋은 것들을 공유하는 기능이 필요한데 페이스북은 쓰고 지나가면 찾기가 어려우니 다른 방법이 필요합니다. 글을 쓰는 사람에게는 편하게 그냥 잊어버리지 않게 정리한다 생각하고 쓰면 좋고 보는 사람에게는 아주 좋은 정보가 됩니다. 또 정리를 잘 해놨더라도 공유가 쉽지 않으면 아무리 정리 잘 해봐야 죽은 지식이기 때문에 쉽게 쓰고, 쉽게 공유 가능한 개발자 블로그가 필요 하다는 생각을 하게 됐습니다.&lt;/p&gt;
+
+&lt;h3 id=&quot;2-그냥-만들고-싶었습니다&quot;&gt;2. 그냥 만들고 싶었습니다.&lt;/h3&gt;
+&lt;p&gt;우아한 형제들 기술블로그를 보고서 저렇게 정리를 잘해 놓으면 좋겠다 싶었네요.&lt;/p&gt;
+
+&lt;h2 id=&quot;로고스토리-멤버-쓰고-싶으신분-누구나-쓸수-있습니다&quot;&gt;로고스토리 멤버 쓰고 싶으신분 누구나 쓸수 있습니다&lt;/h2&gt;
+&lt;p&gt;말 그대로 누구나 어떤 주제로도 쓸수 있습니다.&lt;/p&gt;
+
+&lt;p&gt;이렇게 슬슬 시작해보시죠.&lt;/p&gt;</content><author><name>David Sun</name></author><category term="story" /><summary type="html">안녕하세요 로고스토리 David 입니다. 로고스토리 개발 블로그 ‘로고스토리 - 동네개발자 이야기’ 입니다. 로고스토리 개발자 블로그 만든 기념으로 로고스토리를 만들게된 계기와 개발자 블로그에 대한 첫 글을 남겨 봅니다.</summary></entry></feed>
