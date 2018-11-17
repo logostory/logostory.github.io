@@ -18,6 +18,8 @@
       if (response.status === 'connected') {
         // Logged into your app and Facebook.
         testAPI();
+
+        getGroupMembers();
       } else {
         // The person is not logged into your app or we are unable to tell.
         document.getElementById('status').innerHTML = 'Please log ' +
@@ -80,6 +82,10 @@
           'Thanks for logging in, ' + response.name + '!';
       });
     }
+
+    function getGroupMembers() {
+          document.getElementById("group").style.display = "";
+    }
   </script>
 
 <body>
@@ -88,11 +94,17 @@
   
   <div id="status"> </div>
 
-  <h2>Group Memgers (After app review finish cat show group members</h2>
+  <div id="group" style="display: none">
 
-  <ul id="groupmembers">
+      <h2>Group Memgers (After app review finish cat show group members</h2>
 
-  </ul>
+      <ul id="groupmembers">
+    
+      </ul>
+
+
+  </div>
+  
   
 </body>  
 </html>
