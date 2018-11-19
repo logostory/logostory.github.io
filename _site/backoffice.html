@@ -1,4 +1,12 @@
-<script>
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+  </head>
+
+  <script>
     // This is called with the results from from FB.getLoginStatus().
     function statusChangeCallback(response) {
       console.log('statusChangeCallback');
@@ -10,10 +18,14 @@
       if (response.status === 'connected') {
         // Logged into your app and Facebook.
         testAPI();
+
+        getGroupMembers();
       } else {
         // The person is not logged into your app or we are unable to tell.
         document.getElementById('status').innerHTML = 'Please log ' +
           'into this app.';
+
+          document.getElementById("group").style.display = "none";
       }
     }
   
@@ -72,10 +84,33 @@
           'Thanks for logging in, ' + response.name + '!';
       });
     }
+
+    function getGroupMembers() {
+          document.getElementById("group").style.display = "";
+    }
   </script>
 
-<fb:login-button scope="public_profile,email" onlogin="checkLoginState();" autologoutlink="true">
-</fb:login-button>
+<body>
+  <fb:login-button scope="public_profile,email" onlogin="checkLoginState();" autologoutlink="true">
+  </fb:login-button>
+  
+  <div id="status"> </div>
 
-<div id="status">
-</div>
+  <div id="group" style="display: none">
+
+      <h2>Group Memgers</h2>
+      <p>After app review finish can show group members</p>
+
+      <ul id="groupmembers">
+    
+      </ul>
+
+
+  </div>
+  
+  
+</body>  
+</html>
+
+
+

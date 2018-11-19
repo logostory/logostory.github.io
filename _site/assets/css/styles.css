@@ -731,3 +731,18 @@ pre > code {
 .fb_iframe_widget_fluid_desktop, .fb_iframe_widget_fluid_desktop span, .fb_iframe_widget_fluid_desktop iframe {
   max-width: 100% !important;
   width: 100% !important; }
+
+.row {
+  clear: both;
+  overflow: auto; }
+
+.col-6 {
+  padding: 5px 0; }
+
+.col-6 h3 {
+  margin: 0; }
+
+@media (min-width: 768px) {
+  .col-6 {
+    width: 50%;
+    float: left; } }
