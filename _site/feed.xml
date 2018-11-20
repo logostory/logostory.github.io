@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.5">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2018-11-20T08:14:35+09:00</updated><id>http://localhost:4000/</id><entry><title type="html">3rd. 이제 본격적으로, 그리고 사람</title><link href="http://localhost:4000/meetup/2018/11/18/3rd-meetup.html" rel="alternate" type="text/html" title="3rd. 이제 본격적으로, 그리고 사람" /><published>2018-11-18T00:00:00+09:00</published><updated>2018-11-18T00:00:00+09:00</updated><id>http://localhost:4000/meetup/2018/11/18/3rd-meetup</id><content type="html" xml:base="http://localhost:4000/meetup/2018/11/18/3rd-meetup.html">&lt;p&gt;안녕하세요 로고스토리 David 입니다. 오늘은 logostory세번째 모임을 가진 날이었습니다. 본격적인 스터디 1주를 보내고난 뒤 다시 모여 이야기 나눈 것들에 대한 이야기 입니다.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.5">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2018-11-20T23:22:25+09:00</updated><id>http://localhost:4000/</id><entry><title type="html">3rd. 이제 본격적으로, 그리고 사람</title><link href="http://localhost:4000/meetup/2018/11/18/3rd-meetup.html" rel="alternate" type="text/html" title="3rd. 이제 본격적으로, 그리고 사람" /><published>2018-11-18T00:00:00+09:00</published><updated>2018-11-18T00:00:00+09:00</updated><id>http://localhost:4000/meetup/2018/11/18/3rd-meetup</id><content type="html" xml:base="http://localhost:4000/meetup/2018/11/18/3rd-meetup.html">&lt;p&gt;안녕하세요 로고스토리 David 입니다. 오늘은 logostory세번째 모임을 가진 날이었습니다. 본격적인 스터디 1주를 보내고난 뒤 다시 모여 이야기 나눈 것들에 대한 이야기 입니다.&lt;/p&gt;
 
 &lt;h2 id=&quot;지난-1주일은-스터디는-안녕하셨나요&quot;&gt;지난 1주일은 스터디는 안녕하셨나요?&lt;/h2&gt;
 &lt;p&gt;2018년 11월 11일(일)에 &lt;strong&gt;본격적으로 이런거 개발 이렇게 해봅시다&lt;/strong&gt; 이야기를 하고 일주일이 지난 오늘(11/18). 각 부분 별로 그리고 각자별로 한주간의 시간을 보내고 다시 모여 늘 그렇듯 서로 어색하게 인사를 나누면서 시작했습니다.&lt;/p&gt;
@@ -56,7 +56,7 @@
 &lt;p&gt;&lt;img src=&quot;/assets/img/11-18/swagger.png&quot; alt=&quot;Alt text&quot; /&gt;&lt;/p&gt;
 
 &lt;h2 id=&quot;frontend-ab-그룹으로-나누다&quot;&gt;[frontend] A/B 그룹으로 나누다&lt;/h2&gt;
-&lt;p&gt;frontend 스티디 부분의 가장큰 변화는 ReactJS의 숙년도에 따라 A/B 그룹으로 나누고 Grop별 목표를 정해서 진행하기로 했습니다. 개인적으로는 아주 환영하는 방향입니다. 저같이 ReactJS에 익숙하지 않는 사람들이 ReactJS가 뭔지 한번 해보는 것도 해볼수 있게 되었고 고수님들의 frontend TDD를 옆에서 같이 볼수 있게되어서 엄청 기대가 되네요. fontend는 회의록을 &lt;a href=&quot;https://github.com/logostory/orderbook-frontend&quot;&gt;orderbook-frontend&lt;/a&gt;의 &lt;a href=&quot;https://github.com/logostory/orderbook-frontend/wiki/%ED%9A%8C%EC%9D%98%EB%A1%9D-3%EC%A3%BC%EC%B0%A8&quot;&gt;wiki&lt;/a&gt;에 잘 정리를 해주시고 있어서 보면서 fontend의 스터디 방향을 참고하면 되겠습니다.&lt;/p&gt;
+&lt;p&gt;frontend 스터디 부분의 가장큰 변화는 ReactJS의 숙년도에 따라 A/B 그룹으로 나누고 Group별 목표를 정해서 진행하기로 했습니다. 개인적으로는 아주 환영하는 방향입니다. 저같이 ReactJS에 익숙하지 않는 사람들이 ReactJS가 뭔지 한번 해보는 것도 해볼수 있게 되었고 고수님들의 frontend TDD를 옆에서 같이 볼수 있게되어서 엄청 기대가 되네요. fontend는 회의록을 &lt;a href=&quot;https://github.com/logostory/orderbook-frontend&quot;&gt;orderbook-frontend&lt;/a&gt;의 &lt;a href=&quot;https://github.com/logostory/orderbook-frontend/wiki/%ED%9A%8C%EC%9D%98%EB%A1%9D-3%EC%A3%BC%EC%B0%A8&quot;&gt;wiki&lt;/a&gt;에 잘 정리를 해주시고 있어서 보면서 frontend의 스터디 방향을 참고하면 되겠습니다.&lt;/p&gt;
 
 &lt;p&gt;&lt;b&gt; # 참고 Link &lt;/b&gt;&lt;br /&gt;
 &lt;a href=&quot;https://github.com/sujinleeme/spa-github-pages-ko&quot;&gt;Github Page로 SPA배포하는 방법&lt;/a&gt; &lt;br /&gt; 
@@ -76,8 +76,8 @@
 &lt;a href=&quot;https://www.slideshare.net/awskorea/aws-code-star-devops&quot;&gt;AWS 6월 웨비나 | AWS CodeStar를 통한 DevOps 기반 프로젝트 운영 (윤석찬 테크에반젤리스트)&lt;/a&gt;&lt;/p&gt;
 
 &lt;h2 id=&quot;본-궤도에-오른-스터디-방향&quot;&gt;본 궤도에 오른 스터디 방향&lt;/h2&gt;
-&lt;p&gt;이제 각 부분별로 본격적으로 스터디가 진행되기 시작을 했습니다. 이제 스터디 멤버 수가 평균 16~20분 사이정도 될거 같고 각 부분들이 Deep하게 스터디를 진행하고 있어서 늘 스터디 처음에 모여서 새로오신 분을 소개하고 우리 스터디 방향을 소개했던 일든은 이제 최소화 하고 각각의 파트의 스터디에 집중하는 방식으로 진행해도 될듯하네요&lt;/p&gt;
-
+&lt;p&gt;이제 각 부분별로 본격적으로 스터디가 진행되기 시작을 했습니다. 이제 스터디 멤버 수가 평균 16~20분 사이정도 될거 같고 각 부분들이 Deep하게 스터디를 진행하고 있어서 늘 스터디 처음에 모여서 새로오신 분을 소개하고 우리 스터디 방향을 소개했던 일든은 이제 최소화 하고 각각의 파트의 스터디에 집중하는 방식으로 진행해도 될듯하네요
+S&lt;/p&gt;
 &lt;ol&gt;
   &lt;li&gt;&lt;b&gt; 스터디 시작시간 10:00 -&amp;gt; 10:30 &lt;/b&gt;
     &lt;ul&gt;
