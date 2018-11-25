@@ -1,7 +1,7 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.5">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2018-11-26T07:33:53+09:00</updated><id>http://localhost:4000/</id><entry><title type="html">4th. 연습 마지막 주, 이제 개발이다</title><link href="http://localhost:4000/meetup/2018/11/25/4th-meetup.html" rel="alternate" type="text/html" title="4th. 연습 마지막 주, 이제 개발이다" /><published>2018-11-25T00:00:00+09:00</published><updated>2018-11-25T00:00:00+09:00</updated><id>http://localhost:4000/meetup/2018/11/25/4th-meetup</id><content type="html" xml:base="http://localhost:4000/meetup/2018/11/25/4th-meetup.html">&lt;p&gt;안녕하세요 로고스토리 David 입니다. 오늘은 logostory 네번째 모임을 가진 날이었습니다. 슬슬 개발 기술을 익히는 스터디 전반전이 끝나가고 실전 개발인 후반전에 관한 이야기들이 나왔습니다.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.5">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2018-11-26T07:43:25+09:00</updated><id>http://localhost:4000/</id><entry><title type="html">4th. 연습 마지막 주, 이제 개발이다</title><link href="http://localhost:4000/meetup/2018/11/25/4th-meetup.html" rel="alternate" type="text/html" title="4th. 연습 마지막 주, 이제 개발이다" /><published>2018-11-25T00:00:00+09:00</published><updated>2018-11-25T00:00:00+09:00</updated><id>http://localhost:4000/meetup/2018/11/25/4th-meetup</id><content type="html" xml:base="http://localhost:4000/meetup/2018/11/25/4th-meetup.html">&lt;p&gt;안녕하세요 로고스토리 David 입니다. 오늘은 logostory 네번째 모임을 가진 날이었습니다. 슬슬 개발 기술을 익히는 스터디 전반전이 끝나가고 실전 개발인 후반전에 관한 이야기들이 나왔습니다.&lt;/p&gt;
 
 &lt;h2 id=&quot;와-디자인-퀄리티-실화임&quot;&gt;와.. 디자인 퀄리티 실화임?&lt;/h2&gt;
-&lt;p&gt;오늘 Meetup을 시작하면서 우리 logostory 디자인팀에서 진행 해주신 앱 서베이 결과 및 logostory 아이덴티티 및 얼굴을 담당해줄 로고 디자인을 공유하는 시간을 가졌습니다. 첫번째 &lt;a href=&quot;https://www.facebook.com/profile.php?id=100001894389207&quot;&gt;Rachel Ryu&lt;/a&gt;님께서 준비해주신 타 서비스 Survey를 결과물을 시작으로 로고 디자인이 공유 될때마다 와… 이거 진짜 이 퀄 우리 감당할 수 있나..싶을 정도로 모두 박수를 치지 않을 수 없었습니다.&lt;/p&gt;
+&lt;p&gt;오늘 Meetup을 시작하면서 우리 logostory 디자인팀에서 진행 해주신 앱 서베이 결과 및 logostory 아이덴티티를 담당해줄 로고 디자인을 공유하는 시간을 가졌습니다. 첫번째 &lt;a href=&quot;https://www.facebook.com/profile.php?id=100001894389207&quot;&gt;Rachel Ryu&lt;/a&gt;님께서 준비해주신 타 서비스 Survey를 결과물을 시작으로 로고 디자인까지 하나하나 공유 될때마다 와… 이거 진짜 이 퀄 우리 감당할 수 있나..싶을 정도로 모두가 박수를 치지 않을 수 없었습니다.&lt;/p&gt;
 
 &lt;h3 id=&quot;survey는-이렇게-하는-거였구나&quot;&gt;Survey는 이렇게 하는 거였구나…&lt;/h3&gt;
 &lt;p&gt;오늘 &lt;a href=&quot;https://www.facebook.com/profile.php?id=100001894389207&quot;&gt;Rachel Ryu&lt;/a&gt; 님께서 공유 해주신 Survey결과 들입니다. 총 7개의 서비스들을 모두 깔아서 일일히 설치하고 Survey한 내용입니다. 각 화면에 대한 정리 및 order book서비스와 연관된 부분들을 타 서비스에서 어떻게 적용을 했는지 일목 요연하게 볼수 있는 자료입니다.&lt;/p&gt;
@@ -19,7 +19,7 @@
 &lt;h3 id=&quot;우리-logostory가-이렇게-깊은-의미였나&quot;&gt;우리 logostory가 이렇게 깊은 의미였나??&lt;/h3&gt;
 &lt;p&gt;우리 스터디 모임인 logostory에 대한 로고를 &lt;a href=&quot;https://www.facebook.com/youngkwang.cho.90&quot;&gt;Glory&lt;/a&gt;님과 &lt;a href=&quot;https://www.facebook.com/Johan.Woo&quot;&gt;Yohan Woo&lt;/a&gt; 님이 진행 해주셨습니다.&lt;/p&gt;
 
-&lt;p&gt;먼저 &lt;a href=&quot;https://www.facebook.com/youngkwang.cho.90&quot;&gt;Glory&lt;/a&gt;님은 logostory를 중심에 놓고 떠오르는 단어들로 Word Cloud 만들어 떠오르는 단어들을 뽑아 봤고 그중 logostory에서 추구하는 전체 Full Stack개발을 ‘쌓아간다’라는 이미지로 형상화 해주셨다고 설명해주셨습니다.&lt;/p&gt;
+&lt;p&gt;먼저 &lt;a href=&quot;https://www.facebook.com/youngkwang.cho.90&quot;&gt;Glory&lt;/a&gt;님은 logostory를 중심에 놓고 떠오르는 단어들로 Word Cloud 만들어 카워드들을 뽑아 봤고 그중 logostory에서 추구하는 전체 Full Stack개발을 ‘쌓아간다’라는 이미지로 형상화 해주셨습니다.&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&quot;/assets/img/11-25/logo1-1.png&quot; alt=&quot;Alt text&quot; /&gt;
 &lt;img src=&quot;/assets/img/11-25/logo1-2.png&quot; alt=&quot;Alt text&quot; /&gt;
@@ -44,7 +44,7 @@
 &lt;p&gt;&lt;img src=&quot;/assets/img/11-25/develop_schedule.png&quot; alt=&quot;Alt text&quot; /&gt;&lt;/p&gt;
 
 &lt;h2 id=&quot;design&quot;&gt;[Design]&lt;/h2&gt;
-&lt;p&gt;디자이팀은 이번주에 커뮤니티 아이덴티티 작업, 유사서비스 리서치, User Flow와 간단한 Wireframe을 진행했습니다. Sketch에 Google Material로 컴포넌트 반영하는 것이 쉽지많은 않아 어떻게 하면 잘 사용할지 Material사용법에 대해서 공유 했습니다.&lt;/p&gt;
+&lt;p&gt;디자이팀은 이번주에 커뮤니티 아이덴티티 작업, 유사서비스 리서치, User Flow와 간단한 Wireframe을 진행했습니다. Sketch에 Google Material로 컴포넌트 반영하는 것이 쉽지만은 않아 어떻게 하면 잘 사용할지 Material사용법에 대해서 공유 했습니다.&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;주요 일정&lt;/strong&gt;&lt;/p&gt;
 &lt;ul&gt;
@@ -64,9 +64,9 @@
 &lt;a href=&quot;https://logostory.slack.com/archives/CDUTA8AP3/p1543134369019400&quot;&gt;회의록 2&lt;/a&gt;&lt;/p&gt;
 
 &lt;h2 id=&quot;backend&quot;&gt;[Backend]&lt;/h2&gt;
-&lt;p&gt;백엔드는 지난주에 공유된 Backend 기본 템플릿에 대한 아주 Deep한 구조에 대한 이야기, 코드스타일에 대한 이야기, Backend스펙을 왜 쓰게 되었는지들에 대한 아주 회사에서 실무자 회의 하는듯한 분위기로 진행됐습니다. 온라인에서도 대상&lt;/p&gt;
+&lt;p&gt;백엔드는 지난주에 공유된 Backend 기본 템플릿에 대한 아주 Deep한 구조에 대한 이야기, 코드 스타일에 대한 이야기, Backend스펙을 왜 쓰게 되었는지들에 대한 아주 회사에서 실무자 회의 하는듯한 분위기로 진행됐습니다. 온라인으로도 여러분들이 같이 참여하고 있다는 내용들이 공유를 했고 Github를 이용한 MR, Code Review방법, 브랜치 전략등에 대해서 이야기 했습니다.&lt;/p&gt;
 
-&lt;p&gt;&lt;a href=&quot;https://drive.google.com/open?id=1ED2hBGAHxBKlTZr67Lt1PQ17UypjFkR_fJJU1xQZ5_8&quot;&gt;기능정의서&lt;/a&gt;에 우리가 만들 order book에대한 backend 기능들을 도메인 단위로 정의하고 해당 도메인 별로 오프라인 스터디모임에 참석하신분들이 하나씩 담당자가 되어 해당 기능들을 만들고 Merge Request를 날려서 develop에 브랜치에 반영하는 방향으로 진행하기로 했습니다.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://drive.google.com/open?id=1ED2hBGAHxBKlTZr67Lt1PQ17UypjFkR_fJJU1xQZ5_8&quot;&gt;기능정의서&lt;/a&gt;에 우리가 만들 order book에대한 backend 기능들을 도메인 단위로 정의하고 해당 도메인 별로 오프라인 스터디모임에 참석 하신분들이 하나씩 담당자가 되어 해당 기능들을 만들고 Merge Request를 날려서 develop에 브랜치에 반영하는 방향으로 진행하기로 했습니다.&lt;/p&gt;
 
 &lt;p&gt;Backend에서는 Api Spec과 해당 Api에대한 Moc데이터를 빠른 시간안에 준비를 해주어야 Frontend 개발팀에서 디자인과 api를 받아 작업 진행이 가능하기 때문에 우선순위 1번으로 Api Spec, Mock데이터 만들는 것을 진행 하기로 했습니다.&lt;/p&gt;
 
