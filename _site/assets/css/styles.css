@@ -742,6 +742,10 @@ pre > code {
 .col-6 h3 {
   margin: 0; }
 
+.site-title .site-logo {
+  background: url(../img/logo.jpg) no-repeat center center;
+  background-size: 100% 100%; }
+
 @media (min-width: 768px) {
   .col-6 {
     width: 50%;
