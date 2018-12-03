@@ -1,4 +1,47 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.5">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2018-11-28T07:33:29+09:00</updated><id>http://localhost:4000/</id><entry><title type="html">4th. 연습 마지막 주, 이제 개발이다</title><link href="http://localhost:4000/meetup/2018/11/25/4th-meetup.html" rel="alternate" type="text/html" title="4th. 연습 마지막 주, 이제 개발이다" /><published>2018-11-25T00:00:00+09:00</published><updated>2018-11-25T00:00:00+09:00</updated><id>http://localhost:4000/meetup/2018/11/25/4th-meetup</id><content type="html" xml:base="http://localhost:4000/meetup/2018/11/25/4th-meetup.html">&lt;p&gt;안녕하세요 로고스토리 David 입니다. 오늘은 logostory 네번째 모임을 가진 날이었습니다. 슬슬 개발 기술을 익히는 스터디 전반전이 끝나가고 실전 개발인 후반전에 관한 이야기들이 나왔습니다.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.5">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2018-12-04T08:46:46+09:00</updated><id>http://localhost:4000/</id><entry><title type="html">5th. 서비스(모두의 주문) 개발 시작 그리고 Cowork</title><link href="http://localhost:4000/meetup/2018/12/02/5th-meetup.html" rel="alternate" type="text/html" title="5th. 서비스(모두의 주문) 개발 시작 그리고 Cowork" /><published>2018-12-02T00:00:00+09:00</published><updated>2018-12-02T00:00:00+09:00</updated><id>http://localhost:4000/meetup/2018/12/02/5th-meetup</id><content type="html" xml:base="http://localhost:4000/meetup/2018/12/02/5th-meetup.html">&lt;p&gt;안녕하세요 로고스토리 David 입니다. 오늘은 logostory 다섯번째 모임을 가진 날이었습니다. 오늘은 우리가 만들 서비스인 &lt;strong&gt;‘모두의 주문’&lt;/strong&gt;에 대해서 기획서를 바탕으로 각 부분이 어떻게 개발할지 이야기하는 자리였습니다.&lt;/p&gt;
+
+&lt;h2 id=&quot;모두의-주문-서비스란&quot;&gt;‘모두의 주문’ 서비스란?&lt;/h2&gt;
+&lt;p&gt;모두의 주문은 &lt;code class=&quot;highlighter-rouge&quot;&gt;손님이 자리에서 음식 주문하는 서비스&lt;/code&gt; 입니다. &lt;code class=&quot;highlighter-rouge&quot;&gt;손님&lt;/code&gt;은 &lt;strong&gt;주문 받을 직원을 기다리지 않아&lt;/strong&gt;도 되고 &lt;strong&gt;천천히 메뉴에 대한 상세한 정보를 확인하고 음식을 고를수 있습니다.&lt;/strong&gt; &lt;code class=&quot;highlighter-rouge&quot;&gt;식당&lt;/code&gt;은 손님이 주문하신 음식을 자리로 서빙만 해주면 되고 음식 값을 사전에 주문시에 결제하기 때문에 결제를 담당할 직원을 둘 필요가 없어 &lt;strong&gt;인건비를 절감할 수 있는 서비스&lt;/strong&gt; 입니다.&lt;/p&gt;
+
+&lt;h2 id=&quot;모두의-주문-사용자-시나리오&quot;&gt;‘모두의 주문’ 사용자 시나리오&lt;/h2&gt;
+
+&lt;p&gt;손님은 식당에 들어와 편안한 자리에 앉습니다. 그리고 테이블에 붙은 QR코드를 스캔하면 주문할 음식들이 보입니다. 먹고싶은 음식과 수량을 고르고 결제하면 끝. 조리가 끝난 음식은 자리로 서빙해 줍니다.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/img/12-02/orderbook-flow.png&quot; alt=&quot;Alt text&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;uxui-디자인팀의-빠른-프로토-타이핑&quot;&gt;UX/UI 디자인팀의 빠른 프로토 타이핑&lt;/h2&gt;
+&lt;p&gt;UX/UI 디자인팀이 ‘모두의 주문’서비스를 쉽게 이해할 수 있도록 &lt;a href=&quot;https://marvelapp.com/feib724/screen/50898994&quot;&gt;Marvel&lt;/a&gt; 을 이용해 실제 완성된 서비스처럼 체험이 가능하도록 작업을 진행해 주셔서 개발팀이 모두 서비스를 쉽게 이해하는데 큰 도움이 되었습니다.
+&lt;img src=&quot;/assets/img/12-02/orderbook-screens.png&quot; alt=&quot;Alt text&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;원본 &lt;a href=&quot;https://drive.google.com/open?id=1ORZBLOY2JBFShnA7_T96ptCjNXZcx2Cd&quot;&gt;PDF&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;개발을-위한-documentation&quot;&gt;개발을 위한 Documentation&lt;/h2&gt;
+&lt;p&gt;개발을 진행하기 위해서 최소한의 documentation을 google doc으로 진행하기로 했고 기획서를 바탕으로 아래의 문서들 생성 업데이트 하기로 했습니다.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://docs.google.com/spreadsheets/d/1ED2hBGAHxBKlTZr67Lt1PQ17UypjFkR_fJJU1xQZ5_8/edit#gid=0&quot;&gt;기능 정의서&lt;/a&gt;
+ , &lt;a href=&quot;https://docs.google.com/spreadsheets/d/19PIH5DhNhTtIgtX_T77iPV-vaHYDfYVTVq5iSP7Iy5U/edit#gid=0&quot;&gt;API 정의서&lt;/a&gt;
+ , &lt;a href=&quot;https://drive.google.com/open?id=1abK4WLUPdSd8Vn4bX5c-a9JeVi8mRDzf&quot;&gt;화면 정의서&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;파트별-미팅-내용-요약&quot;&gt;파트별 미팅 내용 요약&lt;/h2&gt;
+
+&lt;h3 id=&quot;uxui-design&quot;&gt;[UX/UI Design]&lt;/h3&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/img/12-02/ui-ux-result.png&quot; alt=&quot;Alt text&quot; /&gt; &lt;br /&gt;
+&lt;a href=&quot;https://logostory.slack.com/archives/CDVFPRP18/p1543746508001500&quot;&gt;원본&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;frontend&quot;&gt;[Frontend]&lt;/h3&gt;
+&lt;p&gt;&lt;img src=&quot;/assets/img/12-02/frontend-result.png&quot; alt=&quot;Alt text&quot; /&gt; &lt;br /&gt;
+&lt;a href=&quot;https://github.com/logostory/orderbook-frontend/wiki/%ED%9A%8C%EC%9D%98%EB%A1%9D-5%EC%A3%BC%EC%B0%A8&quot;&gt;원본&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;backend&quot;&gt;[Backend]&lt;/h3&gt;
+&lt;p&gt;&lt;img src=&quot;/assets/img/12-02/backend-result.png&quot; alt=&quot;Alt text&quot; /&gt; &lt;br /&gt;
+&lt;a href=&quot;https://logostory.slack.com/files/UDUDA4PE3/FEJJPQH0W/1202_Beck-End_________________&quot;&gt;원본&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;인프라&quot;&gt;[인프라]&lt;/h3&gt;
+&lt;p&gt;AWS CodeStar를 이용해서 빌드/배포 해보는 것을 테스트중. 안될경우 Jenkins 설치후 진행&lt;/p&gt;
+
+&lt;h2 id=&quot;수다와-잡담은-경쟁력&quot;&gt;수다와 잡담은 경쟁력&lt;/h2&gt;
+&lt;p&gt;하나의 서비스를 개발하는 과정에는 같은 팀안에서도 많은 이야기가 되어야하지만 각 팀간에 커뮤니케이션은 무엇보다도 중요하고 많이 하면 할수록 더 서비스 개발이 원활하게 흘러가게 됩니다. 기획서를 리뷰하는 과정에서도, 오전 전체 스터디 시간 후에 개별 파트별 스터디를 진행하면서 의문나거나 궁금한 점을 바로바로 다른 팀들과 공유하고 이야기 나누는 모습들이 많았고 이런 모습들이 온라인인 Slack에서도 이어졌습니다. 월요일 부터 주가 시작이 되면 모두들 각자의 삶을 살아가느라 바쁘게 됩니다. 아마도 저녁이나 밤에 커뮤니케이션이 많이 될듯해 Slack 알람을 열심히 확인하자는 이야기를 나눴습니다.&lt;/p&gt;</content><author><name>David Sun</name></author><category term="meetup" /><summary type="html">안녕하세요 로고스토리 David 입니다. 오늘은 logostory 다섯번째 모임을 가진 날이었습니다. 오늘은 우리가 만들 서비스인 ‘모두의 주문’에 대해서 기획서를 바탕으로 각 부분이 어떻게 개발할지 이야기하는 자리였습니다.</summary></entry><entry><title type="html">4th. 연습 마지막 주, 이제 개발이다</title><link href="http://localhost:4000/meetup/2018/11/25/4th-meetup.html" rel="alternate" type="text/html" title="4th. 연습 마지막 주, 이제 개발이다" /><published>2018-11-25T00:00:00+09:00</published><updated>2018-11-25T00:00:00+09:00</updated><id>http://localhost:4000/meetup/2018/11/25/4th-meetup</id><content type="html" xml:base="http://localhost:4000/meetup/2018/11/25/4th-meetup.html">&lt;p&gt;안녕하세요 로고스토리 David 입니다. 오늘은 logostory 네번째 모임을 가진 날이었습니다. 슬슬 개발 기술을 익히는 스터디 전반전이 끝나가고 실전 개발인 후반전에 관한 이야기들이 나왔습니다.&lt;/p&gt;
 
 &lt;h2 id=&quot;와-디자인-퀄리티-실화임&quot;&gt;와.. 디자인 퀄리티 실화임?&lt;/h2&gt;
 &lt;p&gt;오늘 Meetup을 시작하면서 우리 logostory 디자인팀에서 진행 해주신 앱 서베이 결과 및 logostory 아이덴티티를 담당해줄 로고 디자인을 공유하는 시간을 가졌습니다. 첫번째 &lt;a href=&quot;https://www.facebook.com/profile.php?id=100001894389207&quot;&gt;Rachel Ryu&lt;/a&gt;님께서 준비해주신 타 서비스 Survey 결과물을 시작으로 로고 디자인까지 하나하나 공유 될때마다 와… 이거 진짜 이 퀄 우리 감당할 수 있나..싶을 정도로 모두가 박수를 치지 않을 수 없었습니다.&lt;/p&gt;

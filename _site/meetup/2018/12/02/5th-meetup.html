@@ -1,0 +1,174 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta property="fb:app_id" content="1467038313598516" />
+    <title>5th. 서비스(모두의 주문) 개발 시작 그리고 Cowork</title>
+    <link rel="stylesheet" href="/assets/css/styles.css">
+    <link type="application/atom+xml" rel="alternate" href="http://localhost:4000/feed.xml" />
+    <!-- Begin Jekyll SEO tag v2.5.0 -->
+<title>5th. 서비스(모두의 주문) 개발 시작 그리고 Cowork</title>
+<meta name="generator" content="Jekyll v3.8.5" />
+<meta property="og:title" content="5th. 서비스(모두의 주문) 개발 시작 그리고 Cowork" />
+<meta name="author" content="David Sun" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="안녕하세요 로고스토리 David 입니다. 오늘은 logostory 다섯번째 모임을 가진 날이었습니다. 오늘은 우리가 만들 서비스인 ‘모두의 주문’에 대해서 기획서를 바탕으로 각 부분이 어떻게 개발할지 이야기하는 자리였습니다." />
+<meta property="og:description" content="안녕하세요 로고스토리 David 입니다. 오늘은 logostory 다섯번째 모임을 가진 날이었습니다. 오늘은 우리가 만들 서비스인 ‘모두의 주문’에 대해서 기획서를 바탕으로 각 부분이 어떻게 개발할지 이야기하는 자리였습니다." />
+<link rel="canonical" href="http://localhost:4000/meetup/2018/12/02/5th-meetup.html" />
+<meta property="og:url" content="http://localhost:4000/meetup/2018/12/02/5th-meetup.html" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2018-12-02T00:00:00+09:00" />
+<script type="application/ld+json">
+{"description":"안녕하세요 로고스토리 David 입니다. 오늘은 logostory 다섯번째 모임을 가진 날이었습니다. 오늘은 우리가 만들 서비스인 ‘모두의 주문’에 대해서 기획서를 바탕으로 각 부분이 어떻게 개발할지 이야기하는 자리였습니다.","author":{"@type":"Person","name":"David Sun"},"@type":"BlogPosting","url":"http://localhost:4000/meetup/2018/12/02/5th-meetup.html","headline":"5th. 서비스(모두의 주문) 개발 시작 그리고 Cowork","dateModified":"2018-12-02T00:00:00+09:00","datePublished":"2018-12-02T00:00:00+09:00","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/meetup/2018/12/02/5th-meetup.html"},"@context":"http://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+
+
+    <!-- Google Tag Manager -->
+    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+      new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+      j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+      'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+      })(window,document,'script','dataLayer','GTM-PJZXGSG');</script>
+      <!-- End Google Tag Manager -->
+    
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-129312963-1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'UA-129312963-1');
+    </script>
+
+    <div id="fb-root"></div>
+    <script>(function(d, s, id) {
+      var js, fjs = d.getElementsByTagName(s)[0];
+      if (d.getElementById(id)) return;
+      js = d.createElement(s); js.id = id;
+      js.src = 'https://connect.facebook.net/ko_KR/sdk.js#xfbml=1&version=v3.2&appId=1467038313598516&autoLogAppEvents=1';
+      fjs.parentNode.insertBefore(js, fjs);
+    }(document, 'script', 'facebook-jssdk'));</script>
+
+  </head>
+  <body>
+    <!-- Google Tag Manager (noscript) -->
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PJZXGSG"
+      height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+      <!-- End Google Tag Manager (noscript) -->
+      <header class="site-header">
+    <div class="wrapper">
+        <a class="site-title" href="/">
+        <span class="site-logo">로고스토리</span>
+        <span class="site-title">동네 개발자 이야기</span>
+        </a>
+        <nav class="site-nav">
+        <a href="#" class="menu-icon">
+            <svg viewBox="0 0 18 15">
+            <path fill="#424242" d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.031C17.335,0,18,0.665,18,1.484L18,1.484z"></path>
+            <path fill="#424242" d="M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0c0-0.82,0.665-1.484,1.484-1.484 h15.031C17.335,6.031,18,6.696,18,7.516L18,7.516z"></path>
+            <path fill="#424242" d="M18,13.516C18,14.335,17.335,15,16.516,15H1.484C0.665,15,0,14.335,0,13.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.031C17.335,12.031,18,12.696,18,13.516L18,13.516z"></path>
+            </svg>
+        </a>
+        </nav>
+    </div>
+</header>
+        <div class="page-content">
+            <div class="wrapper">
+              <section class="content-layout">
+    <article class="post" itemscope="" itemtype="http://schema.org/BlogPosting">
+  <meta itemscope="" itemprop="mainEntityOfPage" itemtype="https://schema.org/WebPage" itemid="http://woowabros.github.io">
+
+    <div itemprop="image" itemscope="" itemtype="https://schema.org/ImageObject">
+      <meta itemprop="url" content="">
+      <meta itemprop="width" content="800">
+      <meta itemprop="height" content="800">
+    </div>
+
+    <div itemprop="publisher" itemscope="" itemtype="https://schema.org/Organization">
+      <meta itemprop="name" content="우아한형제들">
+      <div itemprop="logo" itemscope="" itemtype="https://schema.org/ImageObject">
+        <meta itemprop="url" content="http://woowabros.github.io/logo_220x57.png">
+        <meta itemprop="width" content="220">
+        <meta itemprop="height" content="57">
+      </div>
+    </div>
+
+  <header class="post-header">
+
+      
+    <h1 class="post-title" itemprop="name headline">5th. 서비스(모두의 주문) 개발 시작 그리고 Cowork</h1>
+    
+    <p class="post-meta">
+        <time datetime="2018-12-02 00:00:00 +0900" itemprop="datePublished dateModified">02 Dec 2018</time>
+         • 
+         <span itemprop="author" itemscope="" itemtype="http://schema.org/Person">
+          <span itemprop="name"> David Sun</span>
+        </span>
+    </p>
+  </header>
+
+  <div class="post-content" itemprop="articleBody">
+      <p>안녕하세요 로고스토리 David 입니다. 오늘은 logostory 다섯번째 모임을 가진 날이었습니다. 오늘은 우리가 만들 서비스인 <strong>‘모두의 주문’</strong>에 대해서 기획서를 바탕으로 각 부분이 어떻게 개발할지 이야기하는 자리였습니다.</p>
+
+<h2 id="모두의-주문-서비스란">‘모두의 주문’ 서비스란?</h2>
+<p>모두의 주문은 <code class="highlighter-rouge">손님이 자리에서 음식 주문하는 서비스</code> 입니다. <code class="highlighter-rouge">손님</code>은 <strong>주문 받을 직원을 기다리지 않아</strong>도 되고 <strong>천천히 메뉴에 대한 상세한 정보를 확인하고 음식을 고를수 있습니다.</strong> <code class="highlighter-rouge">식당</code>은 손님이 주문하신 음식을 자리로 서빙만 해주면 되고 음식 값을 사전에 주문시에 결제하기 때문에 결제를 담당할 직원을 둘 필요가 없어 <strong>인건비를 절감할 수 있는 서비스</strong> 입니다.</p>
+
+<h2 id="모두의-주문-사용자-시나리오">‘모두의 주문’ 사용자 시나리오</h2>
+
+<p>손님은 식당에 들어와 편안한 자리에 앉습니다. 그리고 테이블에 붙은 QR코드를 스캔하면 주문할 음식들이 보입니다. 먹고싶은 음식과 수량을 고르고 결제하면 끝. 조리가 끝난 음식은 자리로 서빙해 줍니다.</p>
+
+<p><img src="/assets/img/12-02/orderbook-flow.png" alt="Alt text" /></p>
+
+<h2 id="uxui-디자인팀의-빠른-프로토-타이핑">UX/UI 디자인팀의 빠른 프로토 타이핑</h2>
+<p>UX/UI 디자인팀이 ‘모두의 주문’서비스를 쉽게 이해할 수 있도록 <a href="https://marvelapp.com/feib724/screen/50898994">Marvel</a> 을 이용해 실제 완성된 서비스처럼 체험이 가능하도록 작업을 진행해 주셔서 개발팀이 모두 서비스를 쉽게 이해하는데 큰 도움이 되었습니다.
+<img src="/assets/img/12-02/orderbook-screens.png" alt="Alt text" /></p>
+
+<p>원본 <a href="https://drive.google.com/open?id=1ORZBLOY2JBFShnA7_T96ptCjNXZcx2Cd">PDF</a></p>
+
+<h2 id="개발을-위한-documentation">개발을 위한 Documentation</h2>
+<p>개발을 진행하기 위해서 최소한의 documentation을 google doc으로 진행하기로 했고 기획서를 바탕으로 아래의 문서들 생성 업데이트 하기로 했습니다.</p>
+
+<p><a href="https://docs.google.com/spreadsheets/d/1ED2hBGAHxBKlTZr67Lt1PQ17UypjFkR_fJJU1xQZ5_8/edit#gid=0">기능 정의서</a>
+ , <a href="https://docs.google.com/spreadsheets/d/19PIH5DhNhTtIgtX_T77iPV-vaHYDfYVTVq5iSP7Iy5U/edit#gid=0">API 정의서</a>
+ , <a href="https://drive.google.com/open?id=1abK4WLUPdSd8Vn4bX5c-a9JeVi8mRDzf">화면 정의서</a></p>
+
+<h2 id="파트별-미팅-내용-요약">파트별 미팅 내용 요약</h2>
+
+<h3 id="uxui-design">[UX/UI Design]</h3>
+
+<p><img src="/assets/img/12-02/ui-ux-result.png" alt="Alt text" /> <br />
+<a href="https://logostory.slack.com/archives/CDVFPRP18/p1543746508001500">원본</a></p>
+
+<h3 id="frontend">[Frontend]</h3>
+<p><img src="/assets/img/12-02/frontend-result.png" alt="Alt text" /> <br />
+<a href="https://github.com/logostory/orderbook-frontend/wiki/%ED%9A%8C%EC%9D%98%EB%A1%9D-5%EC%A3%BC%EC%B0%A8">원본</a></p>
+
+<h3 id="backend">[Backend]</h3>
+<p><img src="/assets/img/12-02/backend-result.png" alt="Alt text" /> <br />
+<a href="https://logostory.slack.com/files/UDUDA4PE3/FEJJPQH0W/1202_Beck-End_________________">원본</a></p>
+
+<h3 id="인프라">[인프라]</h3>
+<p>AWS CodeStar를 이용해서 빌드/배포 해보는 것을 테스트중. 안될경우 Jenkins 설치후 진행</p>
+
+<h2 id="수다와-잡담은-경쟁력">수다와 잡담은 경쟁력</h2>
+<p>하나의 서비스를 개발하는 과정에는 같은 팀안에서도 많은 이야기가 되어야하지만 각 팀간에 커뮤니케이션은 무엇보다도 중요하고 많이 하면 할수록 더 서비스 개발이 원활하게 흘러가게 됩니다. 기획서를 리뷰하는 과정에서도, 오전 전체 스터디 시간 후에 개별 파트별 스터디를 진행하면서 의문나거나 궁금한 점을 바로바로 다른 팀들과 공유하고 이야기 나누는 모습들이 많았고 이런 모습들이 온라인인 Slack에서도 이어졌습니다. 월요일 부터 주가 시작이 되면 모두들 각자의 삶을 살아가느라 바쁘게 됩니다. 아마도 저녁이나 밤에 커뮤니케이션이 많이 될듯해 Slack 알람을 열심히 확인하자는 이야기를 나눴습니다.</p>
+
+  </div>
+
+  <div class="fb-comments" data-href="https://logostory.github.io?5th. 서비스(모두의 주문) 개발 시작 그리고 Cowork" data-width="100%" data-numposts="10"></div>  
+</article>
+
+
+
+</section>
+            </div>
+          </div>
+          <footer class="site-footer">
+    <div class="wrapper">
+        © logostory. All rights reserved. Powered by GitHub Pages. Style by <a target="_woobros" href="http://woowabros.github.io">Woowabros</a>
+    </div>
+</footer>
+  </body>
+</html>
