@@ -1,4 +1,57 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.5">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2018-12-04T20:38:19+09:00</updated><id>http://localhost:4000/</id><entry><title type="html">5th. 서비스(모두의 주문) 개발 시작 그리고 Cowork</title><link href="http://localhost:4000/meetup/2018/12/02/5th-meetup.html" rel="alternate" type="text/html" title="5th. 서비스(모두의 주문) 개발 시작 그리고 Cowork" /><published>2018-12-02T00:00:00+09:00</published><updated>2018-12-02T00:00:00+09:00</updated><id>http://localhost:4000/meetup/2018/12/02/5th-meetup</id><content type="html" xml:base="http://localhost:4000/meetup/2018/12/02/5th-meetup.html">&lt;p&gt;안녕하세요 로고스토리 David 입니다. 오늘은 logostory 다섯번째 모임을 가진 날이었습니다. 오늘은 우리가 만들 서비스인 &lt;strong&gt;‘모두의 주문’&lt;/strong&gt;에 대해서 기획서를 바탕으로 각 부분이 어떻게 개발할지 이야기하는 자리였습니다.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.5">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2018-12-11T02:41:31+09:00</updated><id>http://localhost:4000/</id><entry><title type="html">6th. 개발만 하세요. 나머지는 시스템이 할게요!</title><link href="http://localhost:4000/meetup/2018/12/09/6th-meetup.html" rel="alternate" type="text/html" title="6th. 개발만 하세요. 나머지는 시스템이 할게요!" /><published>2018-12-09T00:00:00+09:00</published><updated>2018-12-09T00:00:00+09:00</updated><id>http://localhost:4000/meetup/2018/12/09/6th-meetup</id><content type="html" xml:base="http://localhost:4000/meetup/2018/12/09/6th-meetup.html">&lt;blockquote&gt;
+  &lt;p&gt;로고스토리 개발은 이렇게 합니다. &lt;code class=&quot;highlighter-rouge&quot;&gt;Sketch&lt;/code&gt;로 디자인해서 &lt;code class=&quot;highlighter-rouge&quot;&gt;Zeplin&lt;/code&gt;으로 공유만하면 가이드 공유가 자동으로 똭! Backend, Front개발해서 &lt;code class=&quot;highlighter-rouge&quot;&gt;Github&lt;/code&gt; develop브랜치에 push만하면 &lt;code class=&quot;highlighter-rouge&quot;&gt;Jenkins&lt;/code&gt;로 서버는 &lt;code class=&quot;highlighter-rouge&quot;&gt;EC2&lt;/code&gt;, 프론트는 &lt;code class=&quot;highlighter-rouge&quot;&gt;Github Page&lt;/code&gt;로 디플로이가 똭!  디플로이 시작 및 결과 알람은 &lt;code class=&quot;highlighter-rouge&quot;&gt;Slack&lt;/code&gt;으로 똭!&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/img/12-09/develop-env.png&quot; alt=&quot;Alt text&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;안녕하세요 로고스토리 David 입니다. 오늘은 logostory 여섯번째 모임을 가진 날이었습니다. 오늘은 날씨도 추워 많은 분들이 못오시지 않을까 싶었는데 결국 대부분 오셔서 코딩혼을 불사르고 가셨습니다. 오늘은 지난 1주일 진행 공유와 간단한 회고, 이슈사항을 서로 이야기하는 자리였습니다.&lt;/p&gt;
+
+&lt;h2 id=&quot;all-talk&quot;&gt;All Talk&lt;/h2&gt;
+&lt;p&gt;각 파트별로 지난주에 진행한 내용들을 간단하게 공유 하는 자리를 가졌는데요. 각 파트별 간력한 내용은 아래와 같습니다.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;b&gt;인프라&lt;/b&gt; : CI/CD환경 구축이 완료가 되었고 개발내용 push하면 자동 반영되어 확인가능합니다.&lt;/li&gt;
+  &lt;li&gt;&lt;b&gt;프론트&lt;/b&gt; : 각자 담당하는 컴포넌트 만들었고 오늘부터 합치고 디자인 나온거 반영 예정이에요.&lt;/li&gt;
+  &lt;li&gt;&lt;b&gt;백엔드&lt;/b&gt; : 담당자 별로 api설계 진행했고 오늘까지 api스펙 도출 및 공유 완료될 예정입니다.&lt;/li&gt;
+  &lt;li&gt;&lt;b&gt;디자인&lt;/b&gt; : 기획서 바탕으로 화면별 디자인 작업을 진행했고 Zeplin까지 연동되었습니다.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;이슈사항으로 동일상품에 옵션이 다를경우에 대한 처리 방향논의와 Client에서 서버의 OAuth2.0 인증을 위한 공통모듈 개발 및 담당자 지정을 이야기 했습니다. 각 파트별 TODO리스트를 정하고 건별로 날짜를 박아서 개발 속도를 높여 보자고 이야기 되었습니다.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://logostory.slack.com/files/U08R6HV33/FEQ4RE4GP/_6th__08-12-09__logosotry_Meetup_Agenda&quot;&gt;[6th][08-12-09] logosotry Meetup Agenda 상세 내용&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;part-talk&quot;&gt;Part Talk&lt;/h2&gt;
+&lt;p&gt;파트별로는 주로 각 파트별 이슈가 논의가 되었고 이제 본격적으로 개발이 진행되면서 다른 파트와의 커뮤니케이션도 많이 진행되었습니다.&lt;/p&gt;
+
+&lt;h3 id=&quot;backend&quot;&gt;BACKEND&lt;/h3&gt;
+&lt;p&gt;백엔드는 각 &lt;a href=&quot;https://docs.google.com/spreadsheets/d/1liO4_4dLF2zPw0BAPfrg3eAVF17f77TA0mIhFRUWIw4/edit#gid=2068837227&quot;&gt;담당자 별&lt;/a&gt; 로 api를 설계를 하기로 했고 OAuth2인증 처리를 위해서 Front팀과 커뮤니케이션을 진행했고 Store단위로 Accont가 존재하므로 Store Token을 전달 받아 진행하는 것으로 이야기가 되었습니다. 목업 개발은 12/9일, 기능 개발완료는 12/16까지로 목표를 잡았습니다.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://logostory.slack.com/archives/CDVCPHJTD/p1544327319000500&quot;&gt;1229 Back-End 스터디 후기&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;frontend&quot;&gt;FRONTEND&lt;/h3&gt;
+&lt;p&gt;프론트 엔드는 지난 1주일 동안 각 개인별로 개발한 내용을 공유했고 &lt;a href=&quot;https://github.com/JodusNodus/react-qr-reader&quot;&gt;QR Code Scanner(react-qr-reacer)&lt;/a&gt;를 사용해서 https주소를 제공할 경우 웹 브라우저에서 QR코드 인지 작업이 가능하다는 내용도 확인을 했습니다. 할일로 컴포넌트 병합, Material-UI적용, 리덕스 부분설계(장바구니), 디지인을 입힌 개인별 페이지를 생성하기로 했습니다. backend 팀과의 협업은 Swagger를 통해서 api전달을 받기로 했습니다.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://github.com/logostory/orderbook-frontend/wiki/%ED%9A%8C%EC%9D%98%EB%A1%9D-6%EC%A3%BC%EC%B0%A8&quot;&gt;프론트엔드팀 6주차 회의록(2018-12-09&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;uiux--design&quot;&gt;UI/UX &amp;amp; DESIGN&lt;/h3&gt;
+&lt;p&gt;UI/UX &amp;amp; DESIGN팀은 Sketch로 작업한 결과를 Zeplin으로 공유를 했고 수량조절기능 없애고 영문으로 계속(한글변환시 레이아웃 깨지는 이슈) 하기로 했습니다. 이제 디자인팀은 틀이 잡힌 상황까지 작업이 되었기 때문에 개인별로 디자인 관련 역량을 발휘 해보고 싶거나 다뤄보고 싶은 툴을 다뤄보기로 했습니다. 페이지 일정(12/10), Material 이름 적용(12/10), 이미지 전달, orderbook로고 만들기 등을 이야기 했습니다.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://logostory.slack.com/archives/CDVFPRP18/p1544352070001000&quot;&gt;디자인 회의록&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/img/12-09/zeplin-1.png&quot; alt=&quot;Alt text&quot; /&gt;
+&lt;img src=&quot;/assets/img/12-09/zeplin-2.png&quot; alt=&quot;Alt text&quot; /&gt;
+&lt;img src=&quot;/assets/img/12-09/zeplin-3.png&quot; alt=&quot;Alt text&quot; /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;infra--aws&quot;&gt;INFRA &amp;amp; AWS&lt;/h3&gt;
+&lt;p&gt;인프라팀은 CI/CD를 설정한 내용, AWS CodeSart를 시도하다가 Jenkins로 반향을 선회한 이야기르들 나눴습니다. 구축한 각 시스템별 URL은 아래와 같습니다.&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Jenkins:&lt;a href=&quot;https://jenkins.logostory.io&quot;&gt;https://jenkins.logostory.io&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Backend:&lt;a href=&quot;https://api-orderbook.logostory.io/swagger-ui.html#/&quot;&gt;https://api-orderbook.logostory.io/swagger-ui.html&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Frontend: &lt;a href=&quot;https://orderbook.logostory.io&quot;&gt;https://orderbook.logostory.io&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;이제-남은건-개발하는-것&quot;&gt;이제 남은건 개발하는 것.&lt;/h2&gt;
+&lt;p&gt;이제는 2주동안 열심히 개발할 일만 남았습니다. 스터디 멤버 대부분 6주라는 기간이 짧은 기간이 아닌데 열정을 잊지않고 끝가지 배움을 채득하는 과정을 보면서 서로서로 자극이 많이 되고 많이 배웁니다. 이번주도 Slack에 불이 나도록 커뮤니케이션 하는 시간들이 될듯합니다.&lt;/p&gt;</content><author><name>David Sun</name></author><category term="meetup" /><summary type="html">로고스토리 개발은 이렇게 합니다. Sketch로 디자인해서 Zeplin으로 공유만하면 가이드 공유가 자동으로 똭! Backend, Front개발해서 Github develop브랜치에 push만하면 Jenkins로 서버는 EC2, 프론트는 Github Page로 디플로이가 똭! 디플로이 시작 및 결과 알람은 Slack으로 똭!</summary></entry><entry><title type="html">5th. 서비스(모두의 주문) 개발 시작 그리고 Cowork</title><link href="http://localhost:4000/meetup/2018/12/02/5th-meetup.html" rel="alternate" type="text/html" title="5th. 서비스(모두의 주문) 개발 시작 그리고 Cowork" /><published>2018-12-02T00:00:00+09:00</published><updated>2018-12-02T00:00:00+09:00</updated><id>http://localhost:4000/meetup/2018/12/02/5th-meetup</id><content type="html" xml:base="http://localhost:4000/meetup/2018/12/02/5th-meetup.html">&lt;p&gt;안녕하세요 로고스토리 David 입니다. 오늘은 logostory 다섯번째 모임을 가진 날이었습니다. 오늘은 우리가 만들 서비스인 &lt;strong&gt;‘모두의 주문’&lt;/strong&gt;에 대해서 기획서를 바탕으로 각 부분이 어떻게 개발할지 이야기하는 자리였습니다.&lt;/p&gt;
 
 &lt;h2 id=&quot;모두의-주문-서비스란&quot;&gt;‘모두의 주문’ 서비스란?&lt;/h2&gt;
 &lt;p&gt;모두의 주문은 &lt;code class=&quot;highlighter-rouge&quot;&gt;손님이 자리에서 음식 주문하는 서비스&lt;/code&gt; 입니다. &lt;code class=&quot;highlighter-rouge&quot;&gt;손님&lt;/code&gt;은 &lt;strong&gt;주문 받을 직원을 기다리지 않아&lt;/strong&gt;도 되고 &lt;strong&gt;천천히 메뉴에 대한 상세한 정보를 확인하고 음식을 고를수 있습니다.&lt;/strong&gt; &lt;code class=&quot;highlighter-rouge&quot;&gt;식당&lt;/code&gt;은 손님이 주문하신 음식을 자리로 서빙만 해주면 되고 음식 값을 사전에 주문시에 결제하기 때문에 결제를 담당할 직원을 둘 필요가 없어 &lt;strong&gt;인건비를 절감할 수 있는 서비스&lt;/strong&gt; 입니다.&lt;/p&gt;
