@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.5">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2018-12-11T02:41:31+09:00</updated><id>http://localhost:4000/</id><entry><title type="html">6th. 개발만 하세요. 나머지는 시스템이 할게요!</title><link href="http://localhost:4000/meetup/2018/12/09/6th-meetup.html" rel="alternate" type="text/html" title="6th. 개발만 하세요. 나머지는 시스템이 할게요!" /><published>2018-12-09T00:00:00+09:00</published><updated>2018-12-09T00:00:00+09:00</updated><id>http://localhost:4000/meetup/2018/12/09/6th-meetup</id><content type="html" xml:base="http://localhost:4000/meetup/2018/12/09/6th-meetup.html">&lt;blockquote&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.5">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2018-12-11T02:56:54+09:00</updated><id>http://localhost:4000/</id><entry><title type="html">6th. 개발만 하세요. 나머지는 시스템이 할게요!</title><link href="http://localhost:4000/meetup/2018/12/09/6th-meetup.html" rel="alternate" type="text/html" title="6th. 개발만 하세요. 나머지는 시스템이 할게요!" /><published>2018-12-09T00:00:00+09:00</published><updated>2018-12-09T00:00:00+09:00</updated><id>http://localhost:4000/meetup/2018/12/09/6th-meetup</id><content type="html" xml:base="http://localhost:4000/meetup/2018/12/09/6th-meetup.html">&lt;blockquote&gt;
   &lt;p&gt;로고스토리 개발은 이렇게 합니다. &lt;code class=&quot;highlighter-rouge&quot;&gt;Sketch&lt;/code&gt;로 디자인해서 &lt;code class=&quot;highlighter-rouge&quot;&gt;Zeplin&lt;/code&gt;으로 공유만하면 가이드 공유가 자동으로 똭! Backend, Front개발해서 &lt;code class=&quot;highlighter-rouge&quot;&gt;Github&lt;/code&gt; develop브랜치에 push만하면 &lt;code class=&quot;highlighter-rouge&quot;&gt;Jenkins&lt;/code&gt;로 서버는 &lt;code class=&quot;highlighter-rouge&quot;&gt;EC2&lt;/code&gt;, 프론트는 &lt;code class=&quot;highlighter-rouge&quot;&gt;Github Page&lt;/code&gt;로 디플로이가 똭!  디플로이 시작 및 결과 알람은 &lt;code class=&quot;highlighter-rouge&quot;&gt;Slack&lt;/code&gt;으로 똭!&lt;/p&gt;
 &lt;/blockquote&gt;
 
@@ -38,9 +38,10 @@
 
 &lt;p&gt;&lt;a href=&quot;https://logostory.slack.com/archives/CDVFPRP18/p1544352070001000&quot;&gt;디자인 회의록&lt;/a&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;/assets/img/12-09/zeplin-1.png&quot; alt=&quot;Alt text&quot; /&gt;
-&lt;img src=&quot;/assets/img/12-09/zeplin-2.png&quot; alt=&quot;Alt text&quot; /&gt;
-&lt;img src=&quot;/assets/img/12-09/zeplin-3.png&quot; alt=&quot;Alt text&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://zpl.io/aBqe1dO&quot;&gt;Zeplin 공유 결과&lt;/a&gt;
+&lt;img src=&quot;/assets/img/12-09/zeplin-1.png&quot; alt=&quot;Alt text&quot; width=&quot;100%&quot; /&gt;
+&lt;img src=&quot;/assets/img/12-09/zeplin-2.png&quot; alt=&quot;Alt text&quot; width=&quot;100%&quot; /&gt;
+&lt;img src=&quot;/assets/img/12-09/zeplin-3.png&quot; alt=&quot;Alt text&quot; width=&quot;100%&quot; /&gt;&lt;/p&gt;
 
 &lt;h3 id=&quot;infra--aws&quot;&gt;INFRA &amp;amp; AWS&lt;/h3&gt;
 &lt;p&gt;인프라팀은 CI/CD를 설정한 내용, AWS CodeSart를 시도하다가 Jenkins로 반향을 선회한 이야기르들 나눴습니다. 구축한 각 시스템별 URL은 아래와 같습니다.&lt;/p&gt;
